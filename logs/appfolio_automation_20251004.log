@@ -1,0 +1,67 @@
+2025-10-04 17:34:28 | INFO | AppFolio Automation System initialized
+2025-10-04 17:34:28 | INFO | Starting daily AppFolio automation
+2025-10-04 17:34:28 | WARNING | Could not connect to existing Chrome: Cannot connect to host localhost:9222 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9222, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9222)]
+2025-10-04 17:34:28 | INFO | 💡 Starting Chrome with remote debugging enabled...
+2025-10-04 17:34:28 | INFO | 🚀 Started Chrome with debugging on port 9222
+2025-10-04 17:34:33 | WARNING | Still could not connect after starting Chrome: Cannot connect to host localhost:9222 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9222, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9222)]
+2025-10-04 17:34:33 | INFO | 🔄 Falling back to launching new browser instance
+2025-10-04 17:34:33 | INFO | ✅ Browser initialized successfully
+2025-10-04 17:34:33 | INFO | Step 1: Logging into AppFolio
+2025-10-04 17:34:33 | INFO | Agent created for task: 
+        Navigate to https://northpointam.appfolio.com/oportal/users/log_in and log in with the following credentials:
+        - Username: tom.hashimotoRE@gmail.com
+        - Password: Cerner135!!$
+        
+        After clicking the login button, if Chrome shows a popup asking to save the password, click "Never" to dismiss it.
+        
+        STOP immediately after handling any password save popup. Do NOT attempt to handle 2FA or any additional authentication steps.
+        The task is complete once you have submitted the login form and dismissed any password save prompts.
+        
+2025-10-04 17:34:52 | INFO | AppFolio login completed
+2025-10-04 17:34:52 | INFO | Step 1.5: Handling password save popup
+2025-10-04 17:34:52 | INFO | Agent created for task: 
+        Look for any Chrome password save popup or notification that asks to save the password.
+        If you see a popup with options like "Save", "Never", or "Not now", click "Never".
+        If no password save popup is visible, do nothing.
+        This task is complete once any password save popup has been dismissed or if no popup exists.
+        
+2025-10-04 17:34:52 | INFO | Password save popup handling completed
+2025-10-04 17:34:52 | INFO | Step 2: Handling 2FA authentication
+2025-10-04 17:34:52 | INFO | 🔐 2FA detected - Manual intervention required
+2025-10-04 17:35:56 | INFO | 🔄 Browser session completed
+2025-10-04 17:35:59 | INFO | AppFolio Automation System initialized
+2025-10-04 17:35:59 | INFO | Starting daily AppFolio automation
+2025-10-04 17:35:59 | WARNING | Could not connect to existing Chrome: Cannot connect to host localhost:9222 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9222, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9222)]
+2025-10-04 17:35:59 | INFO | 💡 Starting Chrome with remote debugging enabled...
+2025-10-04 17:35:59 | INFO | 🚀 Started Chrome with debugging on port 9222
+2025-10-04 17:36:04 | WARNING | Still could not connect after starting Chrome: Cannot connect to host localhost:9222 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9222, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9222)]
+2025-10-04 17:36:04 | INFO | 🔄 Falling back to launching new browser instance
+2025-10-04 17:36:04 | INFO | ✅ Browser initialized successfully
+2025-10-04 17:36:04 | INFO | Step 1: Logging into AppFolio
+2025-10-04 17:36:04 | INFO | Agent created for task: 
+        Navigate to https://northpointam.appfolio.com/oportal/users/log_in and log in with the following credentials:
+        - Username: tom.hashimotoRE@gmail.com
+        - Password: Cerner135!!$
+        
+        After clicking the login button, if Chrome shows a popup asking to save the password, click "Never" to dismiss it.
+        
+        STOP immediately after handling any password save popup. Do NOT attempt to handle 2FA or any additional authentication steps.
+        The task is complete once you have submitted the login form and dismissed any password save prompts.
+        
+2025-10-04 17:36:13 | INFO | AppFolio login completed
+2025-10-04 17:36:13 | INFO | Step 1.5: Handling password save popup
+2025-10-04 17:36:13 | INFO | Agent created for task: 
+        Look for any Chrome password save popup or notification that asks to save the password.
+        If you see a popup with options like "Save", "Never", or "Not now", click "Never".
+        If no password save popup is visible, do nothing.
+        This task is complete once any password save popup has been dismissed or if no popup exists.
+        
+2025-10-04 17:36:13 | INFO | Password save popup handling completed
+2025-10-04 17:36:13 | INFO | Step 2: Handling 2FA authentication
+2025-10-04 17:36:13 | INFO | 🔐 2FA detected - Manual intervention required
+2025-10-04 17:36:14 | INFO | 🔄 Browser session completed
+2025-10-04 17:36:16 | INFO | AppFolio Automation System initialized
+2025-10-04 17:36:16 | INFO | Starting daily AppFolio automation
+2025-10-04 17:36:16 | WARNING | Could not connect to existing Chrome: Cannot connect to host localhost:9222 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 9222, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 9222)]
+2025-10-04 17:36:16 | INFO | 💡 Starting Chrome with remote debugging enabled...
+2025-10-04 17:36:16 | INFO | 🚀 Started Chrome with debugging on port 9222

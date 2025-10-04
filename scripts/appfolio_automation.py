@@ -261,6 +261,20 @@ class AppFolioAutomator:
             logger.error(f"Ledger download failed: {e}")
             return False
 
+    async def navigate_to_statements(self):
+        """Navigate to the statements page."""
+        task = """
+        From the main dashboard, navigate to the Statements page, and download the latest packet.
+        """
+        try:
+            if await self.create_agent(task):
+                await self.agent.run()
+                logger.info("Successfully navigated to the statements page.")
+                return True
+        except Exception as e:
+            logger.error(f"Failed to navigate to statements page: {e}")
+            return False
+
     async def download_documents(self):
         """Download new leases, PMAs, and work order receipts"""
         task = """
@@ -311,9 +325,13 @@ class AppFolioAutomator:
             # Step 3: Download ledger report
             logger.info("Step 3: Downloading ledger report")
             await self.download_ledger_report()
+
+            # Step 4: Navigate to statements
+            logger.info("Step 4: Navigating to statements page")
+            await self.navigate_to_statements()
             
-            # Step 4: Download new documents
-            logger.info("Step 4: Downloading new documents")
+            # Step 5: Download new documents
+            logger.info("Step 5: Downloading new documents")
             await self.download_documents()
             
             logger.info("Daily automation completed successfully")

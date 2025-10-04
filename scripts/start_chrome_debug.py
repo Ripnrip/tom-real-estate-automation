@@ -38,12 +38,12 @@ def start_chrome_with_debug():
     
     try:
         # Get profile configuration
-        profile_directory = BROWSER_CONFIG.get("profile_directory", "Profile 1")
-        user_data_dir = BROWSER_CONFIG.get("user_data_dir", "~/Library/Application Support/Google/Chrome")
+        profile_directory = BROWSER_CONFIG.get("profile_directory", "Default")
+        user_data_dir = BROWSER_CONFIG.get("user_data_dir", "~/.chrome-for-automation")
         # Expand the user directory path
         user_data_dir = str(Path(user_data_dir).expanduser())
         
-        print(f"👤 Using Chrome profile: {profile_directory} (Tom Hashimoto)")
+        print(f"👤 Using Chrome profile: {profile_directory}")
         print(f"📁 User data directory: {user_data_dir}")
         
         # Start Chrome with debugging enabled and specific profile
@@ -54,7 +54,8 @@ def start_chrome_with_debug():
             f"--profile-directory={profile_directory}",
             "--no-first-run",
             "--no-default-browser-check",
-            "--disable-web-security",  # Helps with automation
+            "--disable-password-manager",
+
             "--disable-features=VizDisplayCompositor"  # Helps with stability
         ])
         
